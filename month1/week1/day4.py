@@ -42,7 +42,7 @@ else:
 
 print("Practice: Password Checker")
 
-correct_password = "abdulq1660"
+correct_password = ""
 attempts = 3
 
 while attempts > 0:
