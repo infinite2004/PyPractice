@@ -42,17 +42,17 @@ else:
 
 print("Practice: Password Checker")
 
-correct_password = ""
+correct_password = "aq"
 attempts = 3
 
 while attempts > 0:
-	entered = input("Enter the password")
+	entered = input("Enter the password: ")
 	if entered == correct_password:
-	     print("access granted")
-	     break
+		print("Access granted")
+		break
 	else:
-	    attempts -= 1
-             print(f"Wrong password. {attempts} attempts left")
-if attempts == 0:
-	print("Access denied")
-	    
+		attempts -=1
+		print(f"Wrong password. {attempts} attempts left")
+	
+	if attempts == 0:
+		print("Access denied")	    
