@@ -86,4 +86,4 @@ while guess != secret:
 		print("Too high")
 			
 
-print(f" Correct you guessed it in {attempts} tries") 
+print(f" Correct you guessed it in {attemps} tries") 
