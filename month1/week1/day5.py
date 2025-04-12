@@ -42,4 +42,7 @@ birthday  = input("what is your name")
 
 for letter in birthday:
 	print(letter)
-
+	if letter == "A":
+		print("I know him")
+	else:
+		print("ughh")
